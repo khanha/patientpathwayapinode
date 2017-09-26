@@ -35,6 +35,7 @@
     <Compile Include="config.js" />
     <Compile Include="controller\patients.js" />
     <Compile Include="core\httpMsgs.js" />
+    <Compile Include="index.js" />
     <Compile Include="routes\appointmentRouter.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\launchRouter.js" />

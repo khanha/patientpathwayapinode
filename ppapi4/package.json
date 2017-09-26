@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     //"start": "node ./bin/www"
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "description": "ppapi4",
   "author": {
