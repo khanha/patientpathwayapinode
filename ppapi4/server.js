@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('app');
+var app = require('./app');
 var debug = require('debug')('ppapi4');
 var https = require('https');
 var http = require('http');
