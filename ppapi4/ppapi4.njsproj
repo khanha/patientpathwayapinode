@@ -42,6 +42,7 @@
     <Compile Include="routes\redirecturlRouter.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
+    <Compile Include="server.js" />
     <Compile Include="settings.js" />
     <Content Include="apiapp.json" />
     <Content Include="Metadata\deploymentTemplates\apiappconfig.azureresource.json" />
