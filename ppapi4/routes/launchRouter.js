@@ -18,12 +18,12 @@ launchRouter.route('/')
     var stateGuid = Guid.create();
     //var str = stateGuid.value;
     //var redirect_uri = 'https://ov-dub-ltp-122:3443/redirect_url';
-    var redirect_uri = 'https://patientpathwayapinode.azurewebsites.net/redirect_url';
+    var redirect_uri = 'http://patientpathwayapinode.azurewebsites.net/redirect_url';
     var redirect_uriurl = require('querystring').escape(redirect_uri);
     console.log(redirect_uriurl);
 
     //var aud = 'https://ov-dub-ltp-122:3443';
-    var aud = 'https://patientpathwayapinode.azurewebsites.net';
+    var aud = 'http://patientpathwayapinode.azurewebsites.net';
     var audurl = require('querystring').escape(aud);
     console.log(audurl);
     
